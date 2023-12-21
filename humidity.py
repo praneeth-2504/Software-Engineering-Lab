@@ -83,7 +83,8 @@ def predict_weather_from_file(file_path):
             H = float(lines[0].strip())
             T = float(lines[1].strip())
             Wi = float(lines[2].strip())
-
+# formula to calsualte 
+        
             W = 0.5 * T**2 - 0.2 * H + 0.1 * Wi - 15
 
             if W > 300:
