@@ -74,6 +74,7 @@ else:
 
 
 # 4th
+# extracting data from file 
 def predict_weather_from_file(file_path):
     try:
         with open(file_path, 'r') as file:
